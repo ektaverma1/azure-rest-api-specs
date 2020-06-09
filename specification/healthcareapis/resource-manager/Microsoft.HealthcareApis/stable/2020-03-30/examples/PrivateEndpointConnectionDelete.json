@@ -7,7 +7,7 @@
       "privateEndpointConnectionName": "privateEndpointConnectionName"
     },
     "responses": {
-      "202": {},
-      "204": {}
+      "200": {}
     }
   }
+  

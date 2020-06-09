@@ -68,7 +68,7 @@
           },
           "x-ms-examples": {
             "Gets private endpoint connection.": {
-              "$ref": "./examples/PrivateLinkResourceListGet.json"
+              "$ref": "./examples/ListPrivateLinkResources.json"
             }
           }
         }
@@ -147,11 +147,6 @@
         "description": "Properties of a private link resource.",
         "type": "object",
         "properties": {
-          "groupId": {
-            "description": "The private link resource group id.",
-            "type": "string",
-            "readOnly": true
-          },
           "requiredMembers": {
             "description": "The private link resource required member names.",
             "type": "array",
@@ -193,3 +188,4 @@
       }
     }
   }
+  

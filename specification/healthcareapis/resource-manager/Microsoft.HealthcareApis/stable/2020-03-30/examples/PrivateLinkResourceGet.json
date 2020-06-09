@@ -9,20 +9,19 @@
     "responses": {
       "200": {
         "body": {
-          "id": "subscriptions/00000000-1111-2222-3333-444444444444/resourceGroups/Default/providers/Microsoft.HealthcareApis/services/ddb1/privateLinkResources/sql",
+          "id": "subscriptions/00000000-1111-2222-3333-444444444444/resourceGroups/Default/providers/Microsoft.HealthcareApis/services/ddb1/privateLinkResources/fhir",
           "name": "fhir",
           "type": "Microsoft.HealthcareApis/services/privateLinkResources",
           "properties": {
-            "groupId": "fhir",
             "requiredMembers": [
-              "ddb1",
-              "ddb1-westus"
+              "fhir"
             ],
             "requiredZoneNames": [
-              "privatelink.documents.azure.net"
+              "privatelink.azurehealthcareapis.com"
             ]
           }
         }
       }
     }
   }
+  

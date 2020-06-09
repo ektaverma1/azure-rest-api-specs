@@ -22,7 +22,6 @@
                 "description": "Auto-approved",
                 "actionsRequired": "None"
               },
-              "groupId": "fhir",
               "provisioningState": "Succeeded"
             }
           },
@@ -39,7 +38,6 @@
                 "description": "Auto-approved",
                 "actionsRequired": "None"
               },
-              "groupId": "fhir",
               "provisioningState": "Succeeded"
             }
           }

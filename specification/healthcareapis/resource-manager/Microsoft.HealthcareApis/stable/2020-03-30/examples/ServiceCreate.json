@@ -45,6 +45,11 @@
         },
         "exportConfiguration": {
           "storageAccountName": "existingStorageAccount"
+        },
+        "privateEndpointConnections": {
+          "readOnly": true,
+          "type": "array",
+          "description": "List of private endpoint connection associated with the specified fhir account"
         }
       },
       "identity": {

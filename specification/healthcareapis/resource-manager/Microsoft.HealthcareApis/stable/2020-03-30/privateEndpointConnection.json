@@ -68,7 +68,7 @@
           },
           "x-ms-examples": {
             "Gets private endpoint connection.": {
-              "$ref": "./examples/PrivateEndpointConnectionListGet.json"
+              "$ref": "./examples/ListPrivateLinkResources.json"
             }
           }
         }
@@ -162,7 +162,7 @@
           "x-ms-long-running-operation": true,
           "x-ms-examples": {
             "Approve or reject a private endpoint connection with a given name.": {
-              "$ref": "./examples/PrivateEndpointConnectionUpdate.json"
+              "$ref": "./examples/PutPrivateEndpointConnection.json"
             }
           }
         },
